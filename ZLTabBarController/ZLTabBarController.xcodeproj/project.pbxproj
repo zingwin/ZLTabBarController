@@ -13,14 +13,14 @@
 		AA487FAF1D07B76A006E0EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA487FAD1D07B76A006E0EB9 /* Main.storyboard */; };
 		AA487FB11D07B76A006E0EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA487FB01D07B76A006E0EB9 /* Assets.xcassets */; };
 		AA487FB41D07B76A006E0EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA487FB21D07B76A006E0EB9 /* LaunchScreen.storyboard */; };
-		AA487FBE1D07B9CE006E0EB9 /* ZLTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA487FBD1D07B9CE006E0EB9 /* ZLTabBarItem.m */; };
-		AA487FC11D07C7EE006E0EB9 /* ZLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA487FC01D07C7EE006E0EB9 /* ZLTabBar.m */; };
-		AA487FC41D07C932006E0EB9 /* ZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA487FC31D07C932006E0EB9 /* ZLTabBarController.m */; };
 		AA487FC71D07F93A006E0EB9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA487FC61D07F93A006E0EB9 /* FirstViewController.m */; };
 		AA487FCA1D07F998006E0EB9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA487FC91D07F998006E0EB9 /* SecondViewController.m */; };
 		AA487FCD1D07F9D8006E0EB9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA487FCC1D07F9D8006E0EB9 /* ThirdViewController.m */; };
 		AA487FD01D07F9FE006E0EB9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA487FCF1D07F9FE006E0EB9 /* DetailsViewController.m */; };
 		AA565A1C1D0D4D2C00CD819C /* UIColor+ColorFromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA565A1B1D0D4D2C00CD819C /* UIColor+ColorFromHex.m */; };
+		AA565A241D0D67F300CD819C /* ZLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA565A1F1D0D67F300CD819C /* ZLTabBar.m */; };
+		AA565A251D0D67F300CD819C /* ZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA565A211D0D67F300CD819C /* ZLTabBarController.m */; };
+		AA565A261D0D67F300CD819C /* ZLTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA565A231D0D67F300CD819C /* ZLTabBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +34,6 @@
 		AA487FB01D07B76A006E0EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA487FB31D07B76A006E0EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA487FB51D07B76A006E0EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA487FBC1D07B9CE006E0EB9 /* ZLTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBarItem.h; sourceTree = "<group>"; };
-		AA487FBD1D07B9CE006E0EB9 /* ZLTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarItem.m; sourceTree = "<group>"; };
-		AA487FBF1D07C7EE006E0EB9 /* ZLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBar.h; sourceTree = "<group>"; };
-		AA487FC01D07C7EE006E0EB9 /* ZLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBar.m; sourceTree = "<group>"; };
-		AA487FC21D07C932006E0EB9 /* ZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBarController.h; sourceTree = "<group>"; };
-		AA487FC31D07C932006E0EB9 /* ZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarController.m; sourceTree = "<group>"; };
 		AA487FC51D07F93A006E0EB9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		AA487FC61D07F93A006E0EB9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		AA487FC81D07F998006E0EB9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -50,6 +44,12 @@
 		AA487FCF1D07F9FE006E0EB9 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		AA565A1A1D0D4D2C00CD819C /* UIColor+ColorFromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorFromHex.h"; sourceTree = "<group>"; };
 		AA565A1B1D0D4D2C00CD819C /* UIColor+ColorFromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorFromHex.m"; sourceTree = "<group>"; };
+		AA565A1E1D0D67F300CD819C /* ZLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBar.h; sourceTree = "<group>"; };
+		AA565A1F1D0D67F300CD819C /* ZLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBar.m; sourceTree = "<group>"; };
+		AA565A201D0D67F300CD819C /* ZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBarController.h; sourceTree = "<group>"; };
+		AA565A211D0D67F300CD819C /* ZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarController.m; sourceTree = "<group>"; };
+		AA565A221D0D67F300CD819C /* ZLTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBarItem.h; sourceTree = "<group>"; };
+		AA565A231D0D67F300CD819C /* ZLTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		AA487FA31D07B76A006E0EB9 /* ZLTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				AA487FBB1D07B797006E0EB9 /* ZLTabBarController */,
+				AA565A1D1D0D67F300CD819C /* Classes */,
 				AA487FA71D07B76A006E0EB9 /* AppDelegate.h */,
 				AA487FA81D07B76A006E0EB9 /* AppDelegate.m */,
 				AA487FAA1D07B76A006E0EB9 /* ViewController.h */,
@@ -114,17 +114,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AA487FBB1D07B797006E0EB9 /* ZLTabBarController */ = {
+		AA565A1D1D0D67F300CD819C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AA487FBC1D07B9CE006E0EB9 /* ZLTabBarItem.h */,
-				AA487FBD1D07B9CE006E0EB9 /* ZLTabBarItem.m */,
-				AA487FBF1D07C7EE006E0EB9 /* ZLTabBar.h */,
-				AA487FC01D07C7EE006E0EB9 /* ZLTabBar.m */,
-				AA487FC21D07C932006E0EB9 /* ZLTabBarController.h */,
-				AA487FC31D07C932006E0EB9 /* ZLTabBarController.m */,
+				AA565A1E1D0D67F300CD819C /* ZLTabBar.h */,
+				AA565A1F1D0D67F300CD819C /* ZLTabBar.m */,
+				AA565A201D0D67F300CD819C /* ZLTabBarController.h */,
+				AA565A211D0D67F300CD819C /* ZLTabBarController.m */,
+				AA565A221D0D67F300CD819C /* ZLTabBarItem.h */,
+				AA565A231D0D67F300CD819C /* ZLTabBarItem.m */,
 			);
-			path = ZLTabBarController;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,14 +199,14 @@
 			files = (
 				AA487FAC1D07B76A006E0EB9 /* ViewController.m in Sources */,
 				AA487FD01D07F9FE006E0EB9 /* DetailsViewController.m in Sources */,
-				AA487FC11D07C7EE006E0EB9 /* ZLTabBar.m in Sources */,
 				AA487FC71D07F93A006E0EB9 /* FirstViewController.m in Sources */,
 				AA487FA91D07B76A006E0EB9 /* AppDelegate.m in Sources */,
 				AA487FCA1D07F998006E0EB9 /* SecondViewController.m in Sources */,
+				AA565A251D0D67F300CD819C /* ZLTabBarController.m in Sources */,
 				AA487FCD1D07F9D8006E0EB9 /* ThirdViewController.m in Sources */,
-				AA487FBE1D07B9CE006E0EB9 /* ZLTabBarItem.m in Sources */,
+				AA565A261D0D67F300CD819C /* ZLTabBarItem.m in Sources */,
+				AA565A241D0D67F300CD819C /* ZLTabBar.m in Sources */,
 				AA487FA61D07B76A006E0EB9 /* main.m in Sources */,
-				AA487FC41D07C932006E0EB9 /* ZLTabBarController.m in Sources */,
 				AA565A1C1D0D4D2C00CD819C /* UIColor+ColorFromHex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
