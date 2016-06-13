@@ -68,6 +68,9 @@
 @property (nonatomic, getter=isTranslucent) BOOL translucent;
 
 #pragma mark -Stroke & animation
+/**
+ *  is show stroke animaiton. default is YES
+ */
 @property (assign, nonatomic) BOOL isShowStrokeAnimaiton;
 /**
  Color of the outline when selected and during animations

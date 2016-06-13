@@ -61,7 +61,7 @@
     
     [tabBarController tabBar].backgroundColor = [UIColor blackColor];
     
-//    [tabBarController tabBar].isShowStrokeAnimaiton = YES;
+    [tabBarController tabBar].isShowStrokeAnimaiton = YES;
     [tabBarController tabBar].barItemLineWidth  = 1.0f;
     [tabBarController tabBar].barItemStrokeColor = UIColorFromHEX(0xEC584E);// [UIColor colorWithHex:0xEC584E];
     
