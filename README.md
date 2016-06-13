@@ -8,3 +8,17 @@ TabBarController with animation
 
 ###正常UITabBarController
 > ![demo1](https://github.com/zingwin/ZLTabBarController/blob/master/2.gif)
+
+
+## Usage
+
+To run the example project, you can download from git
+
+### Installation
+
+ZLTabBarController is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ZLTabBarController'
+```
